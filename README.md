@@ -1,6 +1,6 @@
 # Weather application
 
-![big_screen.png](static/icon/big_screen.png)
+![big_screen.png](static/icon/bigscreen.jpg)
 
 Цей проект розроблено з метою ознайомлення із роботою API, принципом отримання даних від віддаленого серверу, вмінням їх обробляти, структурувати та застосовувати у своємо проєкті. А саме застосовувалось API такого веб-ресурсу як [OpenWeatherMap](https://openweathermap.org). Проєкт допоможе розібратися із роботою файлів JSON, як правильно отримувати та зберігати дані у файлах з типом .json. Та познайомити користувача з інтерфейсом застосунку розробленим за допомогою пакету [CustomTkinter](https://customtkinter.tomschimansky.com)
 
@@ -19,11 +19,11 @@ All modules
 
 - [customtkinter](https://customtkinter.tomschimansky.com/)
 - [json](https://docs.python.org/3/library/json.html)
-- [requests]()
-- [pillow]()
-- [os]()
-- [colorama]()
-- [datetime]()
+- [requests](https://pypi.org/project/requests/)
+- [pillow](https://pillow.readthedocs.io/en/stable/)
+- [os](https://docs.python.org/uk/3.13/library/os.html)
+- [colorama](https://pypi.org/project/colorama/)
+- [datetime](https://docs.python.org/uk/3.9/library/datetime.html)
 ___
 <h4 id= 'download-project'>Розгортання проєкту:</h4>
 Download project
@@ -59,4 +59,9 @@ Start project
 
 зробіть запуск програми через команду 
   - python main.py
+___
+<h4 id= 'all-mechanics'>Основні механіки проєкту:</h4>
 
+___
+<h4 id= 'result'>Висновок проєкту:</h4>
+У цьому проєкті я навчилась користуватися офіційними данними про погоду та використовуваати їх у своєму проєкті завдяки API. Також я навчалася користуватися файлами JSON. Якби була можливість і більше часу хотілося б додати також карту опадів, напрям вітрів і тиск.
